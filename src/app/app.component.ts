@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+
+
+
 declare var $: any
 
 @Component({
@@ -8,7 +11,6 @@ declare var $: any
 })
 export class AppComponent {
   title = 'ETicaretClient';
+  constructor(){}
 }
-$(document).ready(()=>{
-  alert("asd")
-})
+
