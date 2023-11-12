@@ -13,7 +13,7 @@ import { OrdersComponent } from '../orders/orders.component';
   imports: [
     CommonModule,
     RouterModule.forChild([
-      {path: "", component: OrdersComponent}
+      {path: "", component: ProductsComponent}
     ])
   ]
 })

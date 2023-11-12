@@ -1,7 +1,4 @@
 import { Component } from '@angular/core';
-
-
-
 declare var $: any
 
 @Component({
@@ -13,4 +10,7 @@ export class AppComponent {
   title = 'ETicaretClient';
   constructor(){}
 }
+
+
+
 
