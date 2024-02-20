@@ -36,6 +36,7 @@ export class BasketService {
   }
 
   async remove(basketItemId: string) {
+    debugger;
     const observable: Observable<any> = this.httpClientService.delete({
       controller: "baskets"
     }, basketItemId);
